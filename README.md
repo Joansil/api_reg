@@ -141,11 +141,11 @@ GET http://localhost:4000/auth/transactions/all
 
 And to see with specific dates:
 
-GET "/transactions/year/:year"
+GET "/transactions/year/:year" where :year you put the year i.e: 2021
 
-GET "/transactions/year/:year/month/:month"
+GET "/transactions/year/:year/month/:month" :year you put the year i.e: 2021 and :month the month i.e: 05
 
-GET "/transactions/day/:day"
+GET "/transactions/day/:day" :day you put the year i.e: 2021-05-17
 
 
 Development
